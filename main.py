@@ -164,4 +164,4 @@ async def seikened_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 bot_builder.add_handler(CommandHandler(command="ayuda", callback=help_command))
 bot_builder.add_handler(CommandHandler(command="start", callback=start))
 bot_builder.add_handler(CommandHandler(command="seikened", callback=seikened_command))
-bot_builder.add_handler(MessageHandler(filters=filters.TEXT & ~filters.COMMAND, callback=echo))
+#bot_builder.add_handler(MessageHandler(filters=filters.TEXT & ~filters.COMMAND, callback=echo))
